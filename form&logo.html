@@ -1,0 +1,41 @@
+<!-- Form operations and form creation  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Container  -->
+<div class="container">
+    <h2>Vertical Basic Form</h2>
+    <!-- Form -->
+    <form action="">
+        <!-- Creat input group -->
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user "></i></span>                        <!-- .input-group-addon  giris alaninin yanina logo alani  -->
+            <input type="email" class="form-control" id="email" placeholder="enter mail" name="email">          
+        </div>
+        <!-- Creat input group -->
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock "></i></span>
+            <input type="password" class="form-control" id="password" placeholder="enter password" name="password">
+        </div>
+        <div class="checkbox" >
+            <label>
+                <input type="checkbox" name="remember"> Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign In</button>
+    </form>
+</div>
+
+</body>
+</html>
